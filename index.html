@@ -61,22 +61,46 @@
 
 <div class="section">
   <h2>Now Playing</h2>
-  <div style="
-  border:2px solid #ff2fa6;
-  padding:10px;
-  display:inline-block;
-  box-shadow:0 0 20px #ff2fa6;
-  background: rgba(0,0,0,0.4);
-">
+<div style="
+  border: 3px solid #ff2fa6;
+  padding: 20px;
+  width: fit-content;
+  margin: auto;
+  box-shadow: 0 0 25px #ff2fa6;
+  background: rgba(0,0,0,0.5);
+  text-align: center;">
 
-  <div style="transform: scale(0.85); transform-origin: top left;">
+  <h2 style="
+    color: white;
+    margin-top: 0;
+    font-size: 28px; ">
+    
+  <h2>Now Playing</h2>
+
+  <div style="
+    width: 420px;
+    height: 220px;
+    overflow: hidden;
+    position: relative;
+  ">
+
     <iframe 
       src="https://lastfm-recently-played.vercel.app/api?user=Honey_buni" 
-      width="400"
-      height="200"
-      style="border:none;">
+      width="600"
+      height="300"
+      style="
+        border: none;
+        transform: scale(0.7);
+        transform-origin: top left;
+        position: absolute;
+        top: 0;
+        left: 0;
+      ">
     </iframe>
+
   </div>
+
+</div>
 
 
 </div>
